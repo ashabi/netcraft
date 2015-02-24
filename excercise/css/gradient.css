@@ -1,0 +1,43 @@
+body{
+	background:#FFF;
+
+}
+
+table{
+	    border-spacing:0;
+
+}
+
+td {
+    width: 50px;
+    height: 50px;
+}
+
+td:nth-child(1){
+	background-color:#000;
+}
+
+td:nth-child(2){
+	background-color:#3D2828;
+}
+td:nth-child(3){
+	background-color:#633535;
+}
+td:nth-child(4){
+	background-color:#8F3D3D;
+}
+td:nth-child(5){
+	background-color:#BF3F3F;
+}
+td:nth-child(6){
+	background-color:#D75C5C;
+}
+td:nth-child(7){
+	background-color:#E87D7D;
+}
+td:nth-child(8){
+	background-color:#F5A3A3;
+}
+td:nth-child(8){
+	background-color:#FDCFCF;
+}

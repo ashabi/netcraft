@@ -1,0 +1,34 @@
+body{
+	margin:0 auto;
+}
+table {
+    border-spacing:0;
+   
+}
+
+td {
+	height: 40px;
+	width: 40px;
+	background: black;
+}
+.brow,
+.brow + td,
+.brow + td + td {
+	background: #C0C0C0;
+}
+
+tr:nth-child(4) > td:not([data-not-eye]) {
+	background: #0000FF;
+}
+
+tr:nth-child(5) > td:empty,
+tr:nth-child(6) > td:empty,
+td[data-foo*="baz"]{
+	background: #FF00FF;
+}
+
+tr:nth-child(7) td[data-foo="smilebar"],
+tr:nth-child(8) td:nth-child(5n+3),
+tr:nth-child(9) td:not(:empty) {
+	background: #FF0000;
+}
