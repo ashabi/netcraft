@@ -1,0 +1,316 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html{
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing:border-box;
+}
+
+body{
+	font:100%/130% 'Open+Sans',  sans-serif;
+	width:100%;
+}
+a {text-decoration:none;}
+clearfix:before, .clearfix:after { content: " "; display: table; }
+
+.clearfix:after { clear: both; }
+
+/* * For IE 6/7 only * Include this rule to trigger hasLayout and contain floats. */
+
+.clearfix { *zoom: 1; }
+
+header{
+  width: 960px;
+  margin: 10px auto;
+  position: relative;
+  overflow: auto;
+  height: 68px;
+}
+header .logo{
+	float:left;
+	width:20%;
+}
+header nav{
+	display:inline-block;
+	margin-left: 27px;
+  	position: absolute;
+  	top: 45px;
+}
+header nav ul {
+	list-style:none;
+}
+header nav ul li{
+	float:left;
+	padding-right:15px;
+
+}
+header nav ul li a{
+		color:#585951;
+		font-size:0.875em;
+		text-decoration:none;
+		text-transform:uppercase;
+}
+.second-menu{
+	float:right;
+	top:0;
+	position:absolute;
+	right:20px;
+}
+.second-menu .top-nav{
+	margin-bottom:15px;
+}
+.second-menu .top-nav a{
+  font-size: 0.875em;
+  color:#585951;
+  text-transform: uppercase;
+  line-height: 2.033;
+  text-align: left;
+  text-decoration: none;
+}
+.second-menu .top-nav a:first-child:after{
+  content: "\25BC";
+  font-size:0.8em;
+  padding-left:2px;
+
+}
+.second-menu form INPUT{
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: rgb( 210, 210, 210 );
+	  border-radius: 6px;
+	  background-color: rgb( 255, 255, 255 );
+	  box-shadow: 0.5px 0.866px 1px 0px rgb( 231, 231, 231 );
+	width: 175px;
+	height: 20px;
+}
+
+.second-menu form BUTTON{
+background: url(../images/searchBtn.png) no-repeat;
+	  width: 23px;
+	  height: 11px;
+	  border: none;
+	  position: relative;
+	  left: -30px;
+	  top: 4px;
+	  text-indent: -9999px;
+}
+.hero-container{
+	clear:both;
+	max-width:100%;
+	height:550px;
+	background:url(../images/slide-bg-complexity.jpg) no-repeat top center;
+	margin-top:20px;
+}
+.hero-images{
+	width:960px;
+	margin:0 auto;
+  line-height:1.3;
+  text-align:left;
+}
+.hero-images h1{
+  font-size: 2.625em;
+  color: white;
+  text-align: left;
+  padding-top:20px;
+  width:50%;
+}
+.hero-images h2{
+	color:white;
+	font-size:1.1em;
+	width:50%;
+}
+button[type=button]{
+	background-color:#198cc5;
+	width:183px;
+	border-radius:6px;
+	border:none;
+	padding:8px 10px 8px 10px;
+	text-align:left;
+	text-transform:uppercase;
+	color:white;
+	margin-top:12px;
+	font-size:0.875em;
+}
+.cycle-pager{
+	margin-top:10px;
+}
+.cycle-pager a{
+	display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 1.5px;
+}
+.cycle-pager a:hover{
+	background-color:#2e95ca;
+}
+.hero-boxes{
+	margin:50px auto 0 auto;
+	width:960px;
+	overflow:auto;
+
+}
+.hero-boxes > .box{
+	display:inline-block;
+	margin-left:20px;
+}
+.hero-boxes > .box:first-child{
+	margin-left:0;
+}
+
+.hero-boxes .box > h2{
+	color:white;
+	font-size:1.5em;
+	font-weight:normal;	
+	line-height:1.1em;
+}
+.hero-boxes .box > a{
+	height:26px;
+	display:block;
+	font-size:0.875em;
+	color:white;
+	padding-left:32px;
+	margin-top:20px;
+	text-decoration:none;
+}
+#widget1{
+	background-color: rgb( 255, 51, 153 );
+	opacity: 0.902;
+	width:291px;
+	padding:20px 10px;
+	border-radius:6px;
+	box-shadow: 0px 1px 4px 0px rgb( 162, 162, 162 );
+}
+
+#widget2{
+	border-radius: 6px;
+	background-color: rgb( 90, 190, 40 );
+	opacity: 0.902;
+	box-shadow: 0px 1px 4px 0px rgb( 162, 162, 162 );
+	width:291px;
+	padding:20px 10px;
+}
+#widget3{
+  	border-radius: 6px;
+  	background-color: rgb( 255, 102, 0 );
+  	opacity: 0.902;
+  	box-shadow: 0px 1px 4px 0px rgb( 162, 162, 162 );
+	width:291px;
+	padding:20px 10px;
+	border-radius:8px;
+	box-shadow: 0px 1px 4px 0px rgb( 162, 162, 162 );
+}
+.hero-boxes #widget1 a{
+	background:url(../images/widget1.png) no-repeat;
+}
+.hero-boxes #widget2 a{
+	background:url(../images/widget2.png) no-repeat;
+}
+.hero-boxes #widget3 a{
+	background:url(../images/widget3.png) no-repeat;
+}
+.solutions-container{
+	background:#47a4c8;
+  	width: 100%;
+	text-decoration: none;
+	font-size: 1.6em;
+	text-align: center;
+	margin: 0 auto;
+  	padding: 30px 0;
+}
+.solutions-container h1, .whats-happening h1{
+  font-size: 1.8em;
+  color: white;
+  text-transform: uppercase;
+  line-height: 0.678;
+	padding-top:30px;
+}
+.solutions-container ul{
+	text-align: center;
+	margin: 40px auto 0 auto;
+	width: 960px;
+}
+.solutions-container ul >li {
+	  display: inline-block;
+	margin:0 auto;
+	width:125px;
+	height:30px;
+}
+.solutions-container img{
+	vertical-align:bottom;
+}
+
+.solutions-container a p {
+  color: white;
+  text-decoration:none;
+  font-size:0.5em;
+}
+.whats-happening{
+	background:url(../images/news-and-events-bg.jpg);
+  	width: 100%;
+	text-decoration: none;
+	font-size: 1.6em;
+	text-align: center;
+	margin: 0 auto;
+  	padding: 30px 0;
+}
+
+.whats-happening > #event-wrapper {
+	display:inline-block;
+	margin-top:50px;
+	text-align:left;
+}
+.whats-happening h2{
+	font-size:1.15em;
+	color:white;
+	line-height:1.5;
+
+}
+#event-wrapper .event-box{
+  	width: 297px;
+  	height: 120px;
+	background-color: rgb( 255, 255, 255 );
+  	opacity: 0.4;
+  	box-shadow: 0px 1px 4px 0px rgb( 162, 162, 162 );
+	padding:10px;
+	font-size:0.875em;
+}
+
+
+#event-wrapper .event-box .date{
+	float:left;
+	display:block;
+	background-color:#3399cc;
+  	width: 70px;
+  	height: 100px;
+	color:white;
+	text-align:center;
+	padding:6px;
+	text-transform:uppercase;	
+	margin-right:10px;
+	background-image: -webkit-linear-gradient(left, rgb(41,145,197) 0%, rgb(70,181,236) 100%);
+	background-image: -o-linear-gradient(left, rgb(41,145,197) 0%, rgb(70,181,236) 100%);
+	background-image: linear-gradient(to right, rgb(41,145,197) 0%, rgb(70,181,236) 100%);
+	box-shadow: 1px 1.732px 4px 0px rgb( 0, 0, 0 );
+
+}
+#event-wrapper  .event-box p{
+	font-size:0.765em;
+
+}
+#event-wrapper  .event-box .date span{
+	display:block;
+	font-size:1.95em;
+	border-bottom:1px dashed white;
+	padding: 15px 0;
+}
+#event-wrapper  a{
+  font-size: 0.565em;
+  text-align: left;
+  text-decoration:none;
+  background:url(../images/eventListIconNews.png) no-repeat left;
+  color:white;
+  padding:4px 0 0 24px;
+ 
+}
