@@ -1,0 +1,228 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html{
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing:border-box;
+}
+
+body{
+	font:100%/130% 'Open+Sans',  sans-serif;
+	
+}
+#wrapper{
+	padding:20px;
+}
+section{
+	border:1px dashed #ccc;
+	margin:20px;
+	padding:40px;
+}
+h1{
+	border-bottom:1px solid #ccc;
+	margin-bottom:20px;
+}
+h2{
+  font-size: 2.625em;
+  color: #575756;
+  line-height: 0.678;
+  text-align: left;
+
+
+}
+#headings{
+	background-color:#ccc;
+}
+#headings h1{
+	font-size:42px;
+	color:white;
+}
+#headings h3{
+	font-size:1.125em;
+	color:white;
+}
+#menus nav ul {
+	list-style:none;
+}
+#menus nav ul li{
+	float:left;
+	padding-right:15px;
+
+}
+#menus nav ul li a{
+		color:#585951;
+		font-size:0.875em;
+		text-decoration:none;
+		text-transform:uppercase;
+}
+
+.topNav a{
+  font-size: 0.875em;
+  color:#585951;
+  text-transform: uppercase;
+  line-height: 2.033;
+  text-align: left;
+  text-decoration: none;
+}
+.topNav a:first-child:after{
+  content: "\25BC";
+  font-size:0.8em;
+  padding-left:2px;
+
+}
+#forms INPUT{
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: rgb( 210, 210, 210 );
+	  border-radius: 6px;
+	  background-color: rgb( 255, 255, 255 );
+	  box-shadow: 0.5px 0.866px 1px 0px rgb( 231, 231, 231 );
+	  width: 144px;
+	  height: 20px;
+}
+
+#forms BUTTON{
+	background:url(images/search.png) no-repeat;
+	width:25px;
+	height:18px;
+	border:none;
+	position:relative;
+	left: -34px;
+  	top: 4px;
+}
+#buttons button{
+	background-color:#198cc5;
+	width:183px;
+	border-radius:6px;
+	border:none;
+	padding:8px 10px 8px 10px;
+	text-align:left;
+	text-transform:uppercase;
+	color:white;
+	margin-top:2px;
+	font-size:0.875em;
+}
+#buttons button .arrow{
+	width: 0;
+	height: 0;
+	border-top:10px solid transparent;
+	border-right:0px solid transparent;
+	border-bottom:10px solid transparent;
+	border-left:10px solid white;
+	float:right;
+}
+
+#widget1{
+	background-color:rgba(255,51,153,0.6);
+	width:296px;
+	padding:20px 10px;
+	border-radius:8px;
+}
+#widget1 h3{
+	color:white;
+	font-size:1.5em;
+	font-weight:normal;	
+	line-height:1.3em;
+}
+#widget1 a{
+	background:url(images/widget1.png) no-repeat;
+	display:block;
+	font-size:0.875em;
+	color:white;
+	padding-left:32px;
+	margin-top:20px;
+	text-decoration:none;
+}
+#widget2{
+	background-color:rgba(90,190,40,0.6);
+	width:296px;
+	padding:20px 10px;
+	border-radius:8px;
+}
+#widget2 h3{
+	color:white;
+	font-size:1.5em;
+	font-weight:normal;	
+	line-height:1.3em;
+}
+#widget2 a{
+	height:25px;
+	background:url(images/widget2.png) no-repeat;
+	display:block;
+	font-size:0.875em;
+	color:white;
+	padding-left:32px;
+	margin-top:20px;
+	text-decoration:none;
+}
+#widget3{
+	background-color:rgba(255,102,0,0.6);
+	width:296px;
+	padding:20px 10px;
+	border-radius:8px;
+}
+#widget3 h3{
+	color:white;
+	font-size:1.5em;
+	font-weight:normal;	
+	line-height:1.3em;
+}
+#widget3 a{
+	height:26px;
+	background:url(images/widget3.png) no-repeat;
+	display:block;
+	font-size:0.875em;
+	color:white;
+	padding-left:32px;
+	margin-top:20px;
+	text-decoration:none;
+}
+#eventWrapper{
+	
+}
+
+#eventWrapper .eventBox{
+
+  	width: 297px;
+  	height: 120px;
+	background-color: rgb( 255, 255, 255 );
+  	opacity: 0.4;
+  	box-shadow: 0px 1px 4px 0px rgb( 162, 162, 162 );
+	padding:10px;
+	font-size:0.875em;
+}
+
+
+#eventWrapper .eventBox .date{
+	float:left;
+	display:block;
+	background-color:#3399cc;
+  	width: 70px;
+  	height: 100px;
+	color:white;
+	text-align:center;
+	padding:6px;
+	text-transform:uppercase;	
+	margin-right:10px;
+	background-image: -webkit-linear-gradient(left, rgb(41,145,197) 0%, rgb(70,181,236) 100%);
+	background-image: -o-linear-gradient(left, rgb(41,145,197) 0%, rgb(70,181,236) 100%);
+	background-image: linear-gradient(to right, rgb(41,145,197) 0%, rgb(70,181,236) 100%);
+	box-shadow: 1px 1.732px 4px 0px rgb( 0, 0, 0 );
+
+}
+#eventWrapper .eventBox .date span{
+	display:block;
+	font-size:3em;
+	border-bottom:1px dashed white;
+	padding: 15px 0;
+}
+#eventWrapper a{
+  font-size: 13px;
+  text-align: left;
+  text-decoration:none;
+  background:url(images/all-news.png) no-repeat left;
+  color:white;
+  padding-left:24px;
+  margin:0;
+}

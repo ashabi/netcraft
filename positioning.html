@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Positioning</title>
+	<style>
+	.wrap{
+		background:lightgrey;
+		margin:0 auto;
+		width:480px;
+		position:relative;
+	}
+	.wrap div{
+		width:150px;
+		height:150px;
+		background:lightblue;
+		line-height:150px; /* this is so that the text is positioned in the middle*/
+		border:1px solid red;
+		text-align:center;
+		font-size:1em;
+	}
+/*	.wrap .second{
+		background:yellow;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-left:-75px; Hack to position the div in the middle. You need to do 1/2 of the width of the div
+		margin-top:-75px;
+	}*/
+	.wrap .second{
+		background:yellow;
+		position:absolute;
+		top:100px;
+		left:20px;
+		bottom:100px;
+		right:20px;
+		width:auto; /*this will stretch it to the entire width minus the left/right written above */
+	}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+    <div>Box 1</div>
+    <div class="second">Box 2</div>
+    <div>Box 3</div>
+    <div>Box 4</div>
+    <div>Box 5</div>
+    <div>Box 6</div>
+    <div>Box 7</div>
+    <div>Box 8</div>
+
+
+</div>
+</body>
+</html>
